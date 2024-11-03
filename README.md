@@ -11,8 +11,11 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## Answer 
-
+When we have two graphs with the same number of nodes then they follow the one-to-one and onto requirements. If we have two graphs with different amounts of nodes then it fails to pass the one-to-one requirement. Which would make these graphs not isomorphic. 
 
 ## Sources 
+I followed the slides provided to us.
 
 ## Plagarism Statement
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
+
