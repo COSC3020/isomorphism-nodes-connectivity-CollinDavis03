@@ -15,7 +15,7 @@ A bijection is established when each node in $G_{1}$ uniquely maps to a comparab
 
 Since $G_{1}$ is a fully connected graph, there exist nodes $V_{1a}$ and $V_{1b}$ that share an edge. For the mapping _f_ to be valid in an isomorphic context, it must map every such edge in $G_{1}$ to a corresponding edge between the associated nodes in $G_{2}$. This edge mapping is feasible because _f_ provides a bijection between all nodes in $G_{1}$ and $G_{2}$.
 
-In conclusion, _f_ consistently maps nodes and edges from $G_{1}$ to $G_{2}$ while retaining adjacency. Hence, any two fully connected graphs with the same number of nodes are isomorphic, as the mapping function \( f \) maintains the relations in $G_{1} such that $f: V_1 \rightarrow V_2$ such that $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
+In conclusion, _f_ consistently maps nodes and edges from $G_{1}$ to $G_{2}$ while retaining adjacency. Hence, any two fully connected graphs with the same number of nodes are isomorphic, as the mapping function \( f \) maintains the relations in $G_{1}$ such that $f: V_1 \rightarrow V_2$ such that $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
 ## Sources 
 I followed the slides provided to us. I also looked at vijaykodru repo to see the links he had because Nolan told me they were also very helpful. 
 
