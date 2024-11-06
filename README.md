@@ -11,7 +11,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## Answer 
-A bijection is established when each node in $G_{1}$ uniquely maps to a comparable node in $G_{2}$. Given that $G_{1}$ and $G_{2}$ contain the same number of nodes, we can define a mapping function _f_ that creates this one-to-one correspondence between them.
+A bijection is established when each node in $G_{1}$ uniquely maps to a comparable node in $G_{2}$. Given that $G_{1}$ and $G_{2}$ contain the same number of nodes, we can define a mapping function _f_ that creates this one-to-one correspondence. For the mapping function to exist we have to prove that there is a one-to-one correspondence and onto. For the one-to-one, we know that no unique node from $G_{1}$ is connected to two $G_{2}$ nodes. There is one unique node from $G_{1}$ that is connected to a node from $G_{2}$. Which has to pass the one-to-one. Then onto is that every node from $G_{1}$ and $G_{2}$ are paired to leave no pairs out making it onto. 
 
 Since $G_{1}$ is a fully connected graph, there exist nodes $V_{1a}$ and $V_{1b}$ that share an edge. For the mapping _f_ to be valid in an isomorphic context, it must map every such edge in $G_{1}$ to a corresponding edge between the associated nodes in $G_{2}$. This edge mapping is feasible because _f_ provides a bijection between all nodes in $G_{1}$ and $G_{2}$.
 
