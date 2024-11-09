@@ -21,7 +21,7 @@ In conclusion, _f_ consistently maps nodes and edges from $G_{1}$ to $G_{2}$ whi
 
 Prove that the graphs are Isomporphic. 
 
-We have to find the number of vertices and edges from graph 1 and 2. We know that both of the graphs are complete and have n vertices. Which will give us $(binom{n}{2})$
+We have to find the number of vertices and edges from graph 1 and 2. We know that both of the graphs are complete and have n vertices. Which will give us $(\binom{n}{2})$
 For the 
 ## Sources 
 I followed the slides provided to us. I also looked at vijaykodru repo to see the links he had because Nolan told me they were also very helpful. 
