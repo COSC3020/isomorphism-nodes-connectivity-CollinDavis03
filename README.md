@@ -11,18 +11,31 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## Answer 
-A bijection is established when each node in $G_{1}$ uniquely maps to a comparable node in $G_{2}$. Given that $G_{1}$ and $G_{2}$ contain the same number of nodes, we can define a mapping function _f_ that creates this one-to-one correspondence. For the mapping function to exist we have to prove that there is a one-to-one correspondence and onto. For the one-to-one, we know that no unique node from $G_{1}$ is connected to two $G_{2}$ nodes. There is one unique node from $G_{1}$ that is connected to a node from $G_{2}$. Which has to pass the one-to-one. Then onto is that every node from $G_{1}$ and $G_{2}$ are paired to leave no pairs out making it onto. 
+**The first step is to complete the graph definition. This means that in a complete graph with n vertices, every pair of vertices is connected by an edge.**
 
-Since $G_{1}$ is a fully connected graph, there exist nodes $V_{1a}$ and $V_{1b}$ that share an edge. For the mapping _f_ to be valid in an isomorphic context, it must map every such edge in $G_{1}$ to a corresponding edge between the associated nodes in $G_{2}$. This edge mapping is feasible because _f_ provides a bijection between all nodes in $G_{1}$ and $G_{2}$.
+This will give us the equation for edges. 
 
-In conclusion, _f_ consistently maps nodes and edges from $G_{1}$ to $G_{2}$ while retaining adjacency. Hence, any two fully connected graphs with the same number of nodes are isomorphic, as the mapping function \( f \) maintains the relations in $G_{1}$ such that $f: V_1 \rightarrow V_2$ such that $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
+$|E|$ = (n over 2) = $(n(n-1))/2$
 
-**Redo of Question** 
+**Step 2: Defining a Mapping Function.** 
 
-Prove that the graphs are Isomporphic. 
+Since $G_{1}$ and $G_{2}$ have the same number of vertices (n), we can define the bijection ($f : V_{1} \rightarrow V_{2}$) such that each vertex in $G_{1}$ is uniquely paired with a vertex in $G_{2}$
 
-We have to find the number of vertices and edges from graph 1 and 2. We know that both of the graphs are complete and have n vertices. Which will give us $\binom{n}{2}$ = $\frac{n(n-1)}{2}$
-For the 
+**Step 3: Verify that Adjacency relationships are Preserved.**
+
+For a complete graph to exist, every vertex in $G_{1}$ is connected to every other vertex. Therefore, for any pairs of vertices $(u,v)
+\in V_1$:
+        $(u,v) \in E_1 \rightarrow (f(u), f(v)) \in E_2$
+Which similarly because f is bijective, for every pair $(f(u), f(v)) \in E_24 there is going to be a corresponding $(u, v) \in E_1$ 
+
+This will make it so adjacency relationships are preserved under the mapping of f. 
+
+**Step 4: Conclude Isomorphism** 
+
+Since f is a bijection, f preserves adjacency relationships, and Both $G_1$ and $G_2$ have the same number of edges and vertices. 
+
+We can conclude that $G_1$ and $G_2$ are isomorphic. 
+
 ## Sources 
 I followed the slides provided to us. I also looked at vijaykodru repo to see the links he had because Nolan told me they were also very helpful. 
 
